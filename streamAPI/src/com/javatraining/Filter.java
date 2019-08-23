@@ -61,6 +61,9 @@ public class Filter {
         List<Student> students = Student.getStudents();
         //Count number of Student objects in list
         long count = students.stream().count();
-        System.out.println(count);
+        System.out.println("No. of Students : "+count);
+        //Count number of Student objects starting with letter 'S' in list
+        count = students.stream().filter(s -> s.getName().startsWith("S")).count();
+        System.out.println("No. of Student Names starting with letter 'S' : "+count);
     }
 }
