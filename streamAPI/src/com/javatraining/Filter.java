@@ -1,5 +1,6 @@
 package com.javatraining;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -8,6 +9,9 @@ public class Filter {
         printStudentsWithShortnames();
         filterWithStream();
         process();
+        streamMinObject();
+        streamMaxObject();
+        streamCountObjects();
     }
 
     //Stream API - Processing function C(original) = C(result)
@@ -35,5 +39,28 @@ public class Filter {
                 System.out.println(student.getName());
             }
         }
+    }
+
+    static void streamMinObject(){
+        List<Student> students = Student.getStudents();
+        Comparator<Student> comparator = Comparator.comparing( Student::getId );
+        // Get Min Object - filter by Id
+        Student minObject = students.stream().min(comparator).get();
+        System.out.println(minObject);
+    }
+
+    static void streamMaxObject(){
+        List<Student> students = Student.getStudents();
+        Comparator<Student> comparator = Comparator.comparing( Student::getId );
+        // Get Max Object - filter by Id
+        Student maxObject = students.stream().max(comparator).get();
+        System.out.println(maxObject);
+    }
+
+    static void streamCountObjects(){
+        List<Student> students = Student.getStudents();
+        //Count number of Student objects in list
+        long count = students.stream().count();
+        System.out.println(count);
     }
 }
