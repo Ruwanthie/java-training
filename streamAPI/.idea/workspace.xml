@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371ecef4-4bad-43cc-8e47-1b05ff87e604" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/javatraining/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javatraining/SortWithLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javatraining/SortWithStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/javatraining/StudentRanker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LambdaExpression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaExpression/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LambdaExpression/src/example03/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LambdaExpression/src/example03/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javatraining/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javatraining/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/SortWithStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/streamAPI/com/javatraining/SortWithStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javatraining/SortWithStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javatraining/SortWithStream.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
