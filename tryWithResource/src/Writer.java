@@ -2,7 +2,7 @@ import java.io.*;
 
 public class Writer {
     //try with resource - write file (auto closable)
-    private static final String FILENAME = "/home/user/Desktop/tryWithResource/src/data/testout.txt";
+    private static final String FILENAME = "/home/user/Desktop/tryWithResource/src/data/test.txt";
 
     public static void main(String[] args) {
 
