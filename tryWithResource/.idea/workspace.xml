@@ -28,7 +28,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Reader">
+  <component name="RunManager" selected="Application.Writer">
     <configuration name="Reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reader" />
       <module name="tryWithResource" />
@@ -45,8 +45,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reader" />
         <item itemvalue="Application.Writer" />
+        <item itemvalue="Application.Reader" />
       </list>
     </recent_temporary>
   </component>
